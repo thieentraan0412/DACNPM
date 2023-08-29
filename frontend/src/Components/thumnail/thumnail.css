@@ -1,0 +1,125 @@
+.product_container {
+  display: flex;
+  width: 300px;
+  height: 150px;
+  padding: 10px 10px;
+}
+.product_contents_buttiona:hover {
+  cursor: pointer;
+}
+.product_container:hover {
+  cursor: pointer;
+}
+.product_img {
+  height: 130px;
+  width: 130px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.product_img_img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  transform: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.product_img_img-1:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.product_contents {
+  margin-left: 10px;
+  width: 90%;
+  display: block;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.product_contents_name {
+  height: 50px;
+  overflow: hidden;
+}
+.product_contents_rate {
+}
+.product_contents_price {
+}
+.product_contents_buttion {
+  font-size: 1.4rem;
+}
+.product_contents_buttiona {
+  background-color: #f24137;
+  font-size: 1.1rem;
+  padding: 4px 4px;
+  border: 1px solid #ccc;
+  color: white;
+}
+
+/* all thumnail */
+.allthumnail_container {
+    width: 200px;
+    height: 390px;
+}
+.allthumnail_img {
+  max-width: 100%;
+  height: 200pt;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.allthumnail_img_img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  transform: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.allthumnail_content {
+    display: flex;
+    flex-direction: column;
+}
+.allthumnail_content_namebook {
+    margin-top: 5px;
+    flex-grow: 6;
+    height: 53px;
+    text-align: center;
+    overflow: hidden;
+}
+.allthumnail_content_price {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.allthumnail_content_price_discount
+{
+    margin-left: 10px;
+    padding: 0px 2px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    align-content: center;
+}
+.allthumnail_content_priceown {
+    flex-grow: 1;
+    opacity: 0.6;
+}
+.price_new
+{
+    color: red;
+}
+.price_own
+{
+    text-decoration: line-through;
+}
+.allthumnail_content_rate {
+    flex-grow: 1;
+}

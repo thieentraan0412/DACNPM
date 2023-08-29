@@ -1,0 +1,119 @@
+.container_home1 {
+  height:300vh;
+  width: 100%;
+  padding: 60px 12%;
+  background-color: #eff0f3;
+  border-radius: 5px;
+}
+.home1_main {
+  background-color: rgb(255, 255, 255);
+  /* display: flex;
+  flex-wrap: wrap; */
+  padding: 30px 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_img {
+  padding: 0 12px;
+  height: 350px;
+  width: 240px;
+}
+.main_img_img {
+    height: 350px;
+    width: 240px;
+  object-fit: cover;
+}
+.main_info {
+  padding-left: 60px;
+}
+
+.main_info_head {
+  font-size: 1.2rem;
+}
+.main_info_name {
+  font-size: 1.6rem;
+  color: red;
+}
+.main_info_rate {
+  padding-top: 20px;
+}
+.main_info_price {
+  color: red;
+  font-size: 1.2rem;
+}
+.main_descripts
+{
+    padding-top: 12px;
+    width: 700px;
+    height: auto;
+    text-align: left;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.main_info_add {
+    margin-top: 50px;
+}
+
+.main_info_adddetail{
+    padding: 6px 6px;
+    border-radius: 5px;
+    background-color: rgb(255, 15, 15);
+    color: #eff0f3;
+    font-size: 1.2rem;
+}
+.main_info_adddetail :hover
+{
+  cursor: pointer;
+  background-color: rgb(251, 23, 23);
+}
+
+.info_description{
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 24px;
+    padding-bottom: 60px;
+}
+.info_description_header
+{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.8rem;
+    color: red;
+}
+.info_description_detail
+{
+    padding-top: 10px;
+}
+.product_same_main
+{
+    padding: 24px 24px;
+}
+.product_same
+{
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+}
+.main_productaaaa
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 40px 0px;
+}
+.main_product1aaaa
+{
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 20px 0px;
+  /* margin-bottom: 100px;   */
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.main_product1aaaa :hover
+{
+  cursor: pointer;
+}

@@ -1,0 +1,170 @@
+.admin_container {
+  height: 1000vh;
+  padding: 30px 12%;
+  background-color: #eff0f3;
+}
+.admin_header_detail
+{
+  padding-top: 35px;
+  color: white;
+  font-size: 2rem;
+}
+.admin_header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(255, 40, 40);
+  justify-content: center;
+  
+}
+.admin_header p {
+  font: 1.6rem sans-serif;
+}
+.admin_container_content {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+  padding-top: 12px;
+  background-color: white;
+}
+.admin_list {
+  flex-grow: 2;
+  width: 200px;
+  border-right: 1px solid #ccc;
+  height: 1500;
+  display: flex;
+  flex-direction: column;
+}
+.admin_content {
+  flex-grow: 8;
+  width: 848.48px;
+  /* background-color: red; */
+}
+.admin_list1 {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.admin_list1 p
+{
+  color: red;
+  font-size: 1.2edit_containerrem;
+}
+.admin_list2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  margin-left: 10px;
+  background-color: red;
+}
+.admin_list3 {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  background-color: red;
+  padding: 10px 10px;
+}
+.admin_list4 {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border: 1px solid #ccc;
+  background-color: red;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.admin_list5 {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  background-color: red;
+  padding: 10px 10px;
+}
+/* .admin_list2,.admin_list3, .admin_list4,.admin_list5 :hover
+{
+    cursor: pointer;
+    background-color: #ccc;
+} */
+
+
+/* page 1 */
+
+
+.page1_container
+{
+    padding: 12px 12px;
+    /* background-color: red; */
+    height: 100%;
+    /* width: 848.48px; */
+}
+.item_display_home
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.admin_name
+{
+  flex-grow: 4;
+  width: 300px;
+  margin-left: 24px;
+}
+.admin_quantity {
+  flex-grow: 1;
+  margin-right: 24px;
+  width: 50px;
+  text-align: center;
+}
+.admin_price {
+  flex-grow: 2;
+  /* margin-left: 24px; */
+  text-align: center;
+}
+.admin_edit
+{
+  color: white;
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+/* //////////////////////////////////////// */
+
+.edit_container
+{
+  height: 1600px;
+}
+
+.editheader
+{
+  padding: 24px 0px; 
+  margin-left:  12px;
+}
+.editprice
+{
+  padding: 0px 12px;
+}
+.editdiscount
+{
+  padding: 0px 12px;
+}
+.addbook_container
+{
+  height: 1200px;
+}
+.bbbbbbb
+{
+  padding: 24px 12px;
+}
+.bbbbbbb h1
+{
+  padding-bottom: 24px;
+}
+.editdelete
+{
+  padding: 24px 12px;
+}
